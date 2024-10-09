@@ -20,6 +20,10 @@ EXTRA_UDFPS_ICONS=true
 TARGET_NOT_USES_BLUR=true
 TARGET_USES_PICO_GAPPS=true
 
+# Remove Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Fingerprint
 TARGET_HAS_UDFPS := true
 

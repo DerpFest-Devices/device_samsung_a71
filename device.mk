@@ -14,7 +14,7 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/rootdir/vendor/etc/mixer_paths_idp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_idp.xml \
 
 # Derp Flags
-DERP_BUILDTYPE=Community
+DERP_BUILDTYPE=Official
 DERP_VERSION_APPEND_TIME_OF_DAY=true
 EXTRA_UDFPS_ICONS=true
 TARGET_NOT_USES_BLUR=true
